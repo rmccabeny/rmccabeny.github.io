@@ -201,23 +201,9 @@ body.fade-out   {
     display: none;
 }
 
-/* The dots under the slideshow */
-.dot  {
-    cursor: pointer;
-    height: 1vw;
-    width: 1vw;
-    margin: .25vw;
-    background-color: #fff;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6 ease;
-    position: relative;
-    z-index: 1;
-    
-}
 
 /* Hovere effect for slideshow dots */
-.active, .dot:hover  {
+.active {
     background-color: #000;
 }
 
