@@ -225,7 +225,8 @@ body.fade-out   {
     width: 50%;         /* This ensures one column takes up half the page width */
     padding: 1.6%;
     background-color: #DDA0DD;
-    height: 448px;          /* You may need to change this to fit your content */
+    height: 448px; 
+    font-family: Goldman;         /* You may need to change this to fit your content */
 }
 
 .Column_2   {
