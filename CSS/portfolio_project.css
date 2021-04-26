@@ -291,6 +291,7 @@ img {
     height: 100%;
     margin: auto auto auto auto;
     display: block;             /* By specifying block display we can ensure our images are able to be centered */
+    margin-bottom: 0;
 }
 
 /* Center align element hover effect */

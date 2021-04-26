@@ -1,0 +1,57 @@
+ZOO DATABASE ASSIGNMENT 1:
+
+SELECT * FROM tbl_habitat;
+
+ZOO DATABASE ASSIGNMENT 2:
+
+SELECT species_name  FROM tbl_species WHERE species_order = 3;
+
+ZOO DATABASE ASSIGNMENT 3:
+
+SELECT nutrition_type FROM tbl_nutrition WHERE nutrition_cost <= 600.00;
+
+ZOO DATABASE ASSIGNMENT 4:
+
+SELECT species_name FROM tbl_nutrition INNER JOIN tbl_species ON tbl_species.species_nutrition = 
+tbl_nutrition.nutrition_id WHERE nutrition_id BETWEEN 2202 AND 2206
+
+ZOO DATABASE ASSIGNMENT 5:
+
+SELECT species_name AS 'Species Name:', nutrition_type AS  'Nutrition Type:' FROM tbl_species INNER JOIN tbl_nutrition
+ON tbl_nutrition.nutrition_id = tbl_species.species_nutrition
+
+ZOO DATABASE ASSIGNMENT 6:
+
+SELECT * FROM tbl_specialist INNER JOIN tbl_care ON tbl_care.care_specialist = tbl_specialist.specialist_id
+INNER JOIN tbl_species ON tbl_species.species_care = tbl_care.care_id WHERE species_name = 'penguin'
+
+ZOO DATABASE ASSIGNMENT 7:
+
+CREATE DATABASE Music;
+
+CREATE TABLE tbl_Band (
+	band_name varchar(50) PRIMARY KEY NOT NULL,
+	year_formed varchar(5), number_of_members varchar(2));
+CREATE TABLE tbl_Album (
+	FK_artist_name varchar(50) FOREIGN KEY REFERENCES tbl_Band(band_name) , number_songs varchar(50), music_genre varchar(50), album_name varchar(50) PRIMARY KEY NOT NULL
+);
+
+INSERT INTO tbl_Band	(
+	band_name, year_formed, number_of_members)
+	VALUES
+	('The Who', '1964', '4'),
+	('The Rolling Stones', '1962', '5'),
+	('The Beatles', '1957', '4'),
+	('The Ramones', '1974', '4'),
+	('The Clash', '1976', '4')
+;
+
+INSERT INTO tbl_Album	(
+	FK_artist_name, number_songs, music_genre, album_name)
+	VALUES
+	('The Who', '17', 'Classic Rock', 'Quadrophenia'),
+	('The Rolling Stones', '10', 'Classic Rock', 'Sticky Fingers'),
+	('The Beatles', '10', 'Classic Rock', 'Abbey Road'),
+	('The Ramones', '21', 'Punk Rock', 'Rocket To Russia'),
+	('The Clash', '14', 'Punk Rock', 'The Clash Album')
+;
