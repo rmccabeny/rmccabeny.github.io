@@ -246,7 +246,7 @@ body.fade-out   {
 /* Heading 1 elements */
 h1  {
     text-transform: uppercase;      /* We  are capitalizing our headings */
-    font-family: "Trebuchut MS", Optima;
+    font-family: "Russo One", Optima;
     text-align: center;
     margin-top: 3%;                 /* We are adding a small margin above the headings */
     color: #1a1a1a;
