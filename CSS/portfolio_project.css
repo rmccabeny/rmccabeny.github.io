@@ -221,6 +221,7 @@ body.fade-out   {
 }
 
 .Column_1   {
+    
     float: left;
     width: 50%;         /* This ensures one column takes up half the page width */
     padding: 1.6%;
@@ -355,7 +356,7 @@ img:hover   {
 .form-container     {
     max-width: 25vw;
     padding: 9px;
-    background-color: #191970;
+    background-color: aqua;
     
 }
 
