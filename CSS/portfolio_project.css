@@ -224,7 +224,7 @@ body.fade-out   {
     float: left;
     width: 50%;         /* This ensures one column takes up half the page width */
     padding: 1.6%;
-    background-color: #DDA0DD;
+    background-color: #191970;
     height: 448px; 
     font-family: Bree Serif;         /* You may need to change this to fit your content */
 }
@@ -355,7 +355,7 @@ img:hover   {
 .form-container     {
     max-width: 25vw;
     padding: 9px;
-    background-color: #4169e1;
+    background-color: #191970;
     
 }
 
