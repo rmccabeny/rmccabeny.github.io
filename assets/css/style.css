@@ -941,6 +941,7 @@ a:hover {
 
 .work-content {
   padding: 2rem 3% 1rem 4%;
+  
 }
 
 .work-content .w-more {
@@ -968,6 +969,7 @@ a:hover {
 
 .w-title {
   font-size: 1.2rem;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
