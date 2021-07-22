@@ -85,6 +85,7 @@ a:hover {
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
+  margin-top: 10px;
 }
 
 @media (max-width: 1024px) {
