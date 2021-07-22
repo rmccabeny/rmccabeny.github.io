@@ -934,6 +934,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  margin-top: 10px;
 }
 
 .work-img img {
