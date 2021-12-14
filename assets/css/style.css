@@ -444,6 +444,21 @@ a:hover {
   border-radius: .3rem;
 }
 
+/* carousel*/
+.carousel {
+
+  height:360px;
+  
+  }
+  
+  .carousel-inner  .item  img {
+  
+  height:360px;
+  
+  object-fit: contain;
+  
+  }
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
