@@ -399,18 +399,33 @@
                       </h5>
                     </div>
                     <div>
-                      <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xjvjwlrn" method="post">
-                        <fieldset id="fs-frm-inputs">
-                          <label for="full-name">Full Name</label>
-                          <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-                          <label for="email-address">Email Address</label>
-                          <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="rmccabe1023@gmail.com">
-                          <label for="message">Message</label>
-                          <textarea rows="5" name="message" id="message" placeholder="message" required=""></textarea>
-                          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-                        </fieldset>
-                        <input type="submit" value="Submit">
-                      </form>
+                      <form action="https://formspree.io/f/xjvjwlrn" method="post" role="form">
+                        <div class="row">
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="email" name="email" class="form-control" id="email" placeholder="Your Email" required>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" name="name" class="form-control" id="subject" placeholder="Subject" required>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <textarea type="text" name="message" class="form-control" rows="5" placeholder="Message" required></textarea>
+                            </div>
+                          </div>
+                          <div class="col-md-12 text-center">
+                            <button type="submit" class="button button-a button-big button-rouded">Submit</button>
+                          </div>
+                        </div>
+                       </form>
                       </div>
                     </div>
                     <div class="col-md-6">
