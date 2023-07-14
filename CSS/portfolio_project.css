@@ -11,7 +11,7 @@ body    {
     letter-spacing: .2vw;
     font-family: Avant-Garde, Helvetica;
     font-size: 1.5vw;
-    background-image: url("images/codecode.jpg");
+    background-image: url("codecode.jpg");
 }
 
 /* This section contributes to the fade effect for the page that occurs when the page is loaded */
@@ -74,6 +74,10 @@ body.fade-out   {
 /* Navbar Home button */
 .Navbar a.active    {       /* The active selector styles a link */
     background-color: #A9A9A9;      /* This specifies the background color behind the home button on the navbar */
+}
+
+#hero {
+    background-image: url("https://imgur.com/Arxpymp");
 }
 
 /* This causes the video to zoom out from a zoomed in  position upon page load */
@@ -203,7 +207,7 @@ body.fade-out   {
 }
 
 
-/* Hovere effect for slideshow dots */
+/* Hover effect for slideshow dots */
 .active {
     background-color: #000;
 }
