@@ -76,9 +76,8 @@ body.fade-out   {
     background-color: #A9A9A9;      /* This specifies the background color behind the home button on the navbar */
 }
 
-#hero {
-    background-image: url(https://imgur.com/Arxpymp);
-}
+
+
 
 /* This causes the video to zoom out from a zoomed in  position upon page load */
 @keyframes zoominoutsinglefeatured  {
