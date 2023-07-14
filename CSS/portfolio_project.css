@@ -293,7 +293,7 @@ img {
     height: 100%;
     margin: auto auto auto auto;
     display: block;             /* By specifying block display we can ensure our images are able to be centered */
-    
+    background-image: url("images/codecode.jpg");
 }
 
 /* Center align element hover effect */
