@@ -77,7 +77,7 @@ body.fade-out   {
 }
 
 #hero {
-    background-image: url("https://imgur.com/Arxpymp");
+    background-image: url(https://imgur.com/Arxpymp);
 }
 
 /* This causes the video to zoom out from a zoomed in  position upon page load */
