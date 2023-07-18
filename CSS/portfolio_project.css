@@ -428,3 +428,7 @@ footer  {
     padding: 2%;
     background-color: #fff;
 }
+
+ul {
+    list-style-type: none;
+}
