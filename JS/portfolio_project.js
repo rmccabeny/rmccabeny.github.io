@@ -2,6 +2,22 @@
 //These functions open and close the contact form
 function openForm() {
     document.getElementById("contactForm").style.display = "block";
+    // Get a reference to the form and the submit button
+    const form = document.getElementById('myForm');
+    const submitButton = form.querySelector('button[type="submit"]');
+
+    // Add event listener to the form's submit event
+    form.addEventListener('submit', function(event) {
+    // Prevent the default form submission behavior
+    event.preventDefault();
+
+    // Your code to send the user information goes here
+    // For example, you can use AJAX to send the data to the server
+
+    // Clear the form after the submission is complete
+    form.reset();
+    });
+
 }
 
 //This close(); FIX
