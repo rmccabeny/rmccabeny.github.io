@@ -392,7 +392,7 @@ img:hover   {
     border-color: #808080;
 }
 
-.hero {
+.hero route bg-image{
     background-color: #6495ED;
     background-image: url(https://rmccabe62.github.io/images/codecode.jpg);
     padding-top: 200px;
