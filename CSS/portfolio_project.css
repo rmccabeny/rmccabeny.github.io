@@ -392,6 +392,13 @@ img:hover   {
     border-color: #808080;
 }
 
+.hero {
+    background-color: #6495ED;
+    background-image: url(https://rmccabe62.github.io/images/codecode.jpg);
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
 /* Button styling */
 button  {
     font-family: "Trebuchet MS", Optima;
