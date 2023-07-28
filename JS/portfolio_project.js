@@ -7,42 +7,40 @@ function openForm() {
     const submitButton = form.querySelector('button[type="submit"]');
 
     // Add event listener to the form's submit event
-    form.addEventListener('submit', function(event) {
-    // Prevent the default form submission behavior
-    event.preventDefault();
+    form.addEventListener('submit', function (event) {
+        // Prevent the default form submission behavior
+        event.preventDefault();
 
-    // Your code to send the user information goes here
-    // For example, you can use AJAX to send the data to the server
 
-    // Clear the form after the submission is complete
-    form.reset();
+        // Clear the form after the submission is complete
+        form.reset();
     });
 
 }
 
 //This close(); FIX
-function closeForm()  {
+function closeForm() {
     document.getElementById("contactForm").style.display = "none";
 }
 
 //This function covers the slideshow
 var slideIndex = 1;
 showSlides(slideIndex);
-function plusSlides(n)  {
+function plusSlides(n) {
     showSlides(slideIndex += n);
 }
-function currentSlide(n)  {
+function currentSlide(n) {
     showSlides(slideIndex = n);
 }
-function showSlides(n)  {
+function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("mySlides");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-       for (i = 0; i < slides.length; i++)  {
-       slides[i].style.display = "none";
-       }
-       
-       slides[slideIndex - 1].style.display = "block";
-       dots[slideIndex - 1].className += " active";
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
 }
