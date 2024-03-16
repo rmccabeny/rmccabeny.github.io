@@ -337,7 +337,7 @@ p {
 /* Center align elements - this embraces all centered text */
 center {
     font-family: Perpetua, Rockwell Extra Bold;
-    text-align: center;
+    text-align: left;
     letter-spacing: .1vw;
     font-size: 1.5vw;
     padding-left: 5vw;
