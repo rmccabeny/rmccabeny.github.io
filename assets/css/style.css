@@ -176,6 +176,7 @@ a:hover {
 .title-left {
   font-size: 2rem;
   position: relative;
+  text-align: center;
 }
 
 .title-left:before {
